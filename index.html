@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <!-- <link rel="icon" href="img/devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+
+    <script type="module" src="./scripts/controller.js" defer></script>
+
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="curr-weather">
+        <div class="search-container hidden">
+          <div class="close-search">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+          <div class="search-location">
+            <div class="search-box">
+              <ion-icon name="search-outline"></ion-icon>
+              <input
+                type="search"
+                placeholder="search location"
+                class="search-input"
+              />
+            </div>
+            <button class="btn-start-search">Search</button>
+          </div>
+          <div class="list-location">
+            <ul class="city-list"></ul>
+          </div>
+        </div>
+        <div class="current-weather">
+          <div class="btns">
+            <button class="btn-search">Search for places</button>
+            <button class="btn-location">
+              <span class="material-symbols-outlined"> my_location </span>
+            </button>
+          </div>
+          <div class="current-container"></div>
+        </div>
+      </div>
+      <div class="forecast-weather">
+        <div class="forecast-box">
+          <div class="toggle-temp-btn">
+            <button class="btn-celsius">℃</button>
+            <button class="btn-fahrenheit">℉</button>
+          </div>
+          <div class="forecast-container"></div>
+
+          <div class="statistics-container"></div>
+
+          <footer>
+            <p>created by <span>flavioporfirio86</span> - devChallenges.io</p>
+          </footer>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
