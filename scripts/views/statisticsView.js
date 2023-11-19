@@ -36,7 +36,9 @@ class StatisticsView extends View {
           )} mph</p>
           <div class="wind-deg">
             <div class="icon-deg">
-              <ion-icon name="navigate"></ion-icon>
+             <svg>
+              <use href=".././imgs/navigation.svg" />
+             </svg>
             </div>
             <p class="wind-direction">${
               windDeg === 0

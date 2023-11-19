@@ -548,6 +548,10 @@ footer p span {
     flex-wrap: wrap;
   }
 
+  .temp-max-min p {
+    display: flex;
+  }
+
   .list-location li {
     padding-inline: 12px;
     width: 351px;

@@ -63,11 +63,11 @@ class ForecastView {
           }@2x.png" alt=${box?.weather[0].description} />
           <div class="temp-max-min">
             <p>${tempMax} <span>${
-        units === "metric" ? "℃" : "℉"
-      }</span></p>
+              units === "metric" ? "℃" : "℉"
+            }</span></p>
             <p>${tempMin} <span>${
-        units === "metric" ? "℃" : "℉"
-      }</span></p>
+          units === "metric" ? "℃" : "℉"
+          }</span></p>
           </div>
         </div>
         `;
